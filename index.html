@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CRUD</title>
+    <!-- BootStrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My CSS / Scripts -->
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+    <form class="mt-4">
+
+      <div class="form-group">
+        <label>Email address</label>
+        <input type="email" class="form-control" placeholder="Enter email" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" class="form-control" placeholder="Password" autocomplete="off">
+      </div>
+
+      <button id="action-btn" class="btn btn-primary" onclick="create();">Create</button>
+
+    </form>
+
+
+    <div class="output-container"></div>
+
+    </div>
+
+    <script>table_generator();</script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+body {
+  background-color: #fc7978;
+}
+
+.crudHeading {
+  color: #ffd739;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+}
